@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+	background-color:pink;
+	margin:5%;
+	font-family: 'Berkshire Swash', cursive;
+	border-left: 100px solid black;
+	border-right: 100px solid black;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+	font-family: 'Shrikhand', cursive;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+	border: 3px solid black;
+	
+}
+
+tr {
+    height: 10px;
+}
+
+td {
+    width: 10px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
