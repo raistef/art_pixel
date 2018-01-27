@@ -35,7 +35,7 @@ function makeGrid() {
 ///// https://github.com/Syknapse/Pixel-art-maker/blob/master/designs.js - source for the following block of code ///
 
 	var color=document.getElementById("colorPicker").value;
-    let mouseIsDown = true;
+    let mouseIsDown = false;
     let clicks = $(this).data('clicks');
     $('table').on('mouseleave', 'td', function(){
 		color=document.getElementById("colorPicker").value;
