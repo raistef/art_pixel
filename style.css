@@ -1,13 +1,29 @@
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+}
+
+
 body {
     text-align: center;
-	background-image:url("backg3.png");
-	background-color: rgba(255, 0, 0, 0.81) !important;
-	background-blend-mode: color;
-	margin:-1% 10% -1% 10%;
+	background-color:black;
 	font-family: 'Kavivanar', cursive;
 	font-size:140%;
-	border-left: 100px solid black;
-	border-right: 100px solid black;
+	height:100%;
 	
 	
 }
@@ -65,8 +81,12 @@ input[type=number] {
 }
 
 #main {
-	background-color:rgba(255,255,255,0.7);
-	padding-bottom:4%;
+	background-color:rgba(255,255,255,0.5);
+	padding:4%;
+	margin: 0px 100px;
+	background-image:url("backg3.png");
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 
 /* */
